@@ -1,0 +1,170 @@
+@media(max-width: 1920px)/*電腦版*/
+{
+  
+        body{
+            background-image: url(b2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial;/*字體*/
+            background-color: #33495e;
+        }
+        .content{
+    
+            font-size:45px;
+            font-style:italic;
+            width:600px;
+            padding:40px;
+            position: absolute;
+            top:45%;
+            left:35%;
+            transform: translate(-45%,-540%);
+            color:#007799;
+            font-family:Bookman, URW Bookman L, seri;
+        }
+        
+        .right{
+            background-size:30% 40% ;
+            width:30%;
+            height: 40%;
+            font-family:Arial;/*字體*/
+            background-color: rgba(255, 255, 255, 0.479);
+            background-attachment: scroll;
+            background-size: cover;
+            
+            
+            top:0%;
+            /* position:relative; */
+            transform: translate(200%,0%);
+        }
+        .down{
+            bottom: 0px;
+            font-family:Arial;
+            text-align:center;
+            background-size: cover;
+            height: 500px;
+            background-color:rgba(174, 205, 247, 0.623);
+            position: center;
+            background-attachment: fixed;
+            transform: translate(0%,0%);
+            
+            
+        }
+        
+    }   
+ @media(min-width: 1920px)
+{
+  
+        body{
+            background-image: url(b2.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            font-family: Arial;
+            background-color: #33495e;
+        }
+        .content{
+            font-size:35px;
+            width:300px;
+            padding:40px;
+            position: absolute;
+            top:45%;
+            left:35%;
+            transform: translate(-90%,-50%);
+            color:#007799;
+        }
+        
+        .right{
+            background-size:30% 110% ;
+            width:30%;
+            height: 110%;
+            font-family:Arial;
+            background-color: rgba(255, 255, 255, 0.479);
+            background-attachment: scroll;
+            background-size: cover;
+            
+            
+            top:0%;
+            
+            transform: translate(200%,0%);
+        }
+        .down{
+            bottom: 0px;
+            font-family:Arial;
+            text-align:center;
+            background-size: cover;
+            height: 500px;
+            background-color:rgba(174, 205, 247, 0.623);
+            position: center;
+            background-attachment: fixed;
+            transform: translate(0%,0%);
+            
+            
+        
+    }     
+    
+@media(max-width: 375px)
+{
+    body{
+        background-image: url(b2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        font-family: Arial;/*字體*/
+        background-color: #33495e;
+    }
+    .content{
+        text-align:center;
+        font-size:35px;
+        width:100px;
+        padding:40px;
+        position: absolute;
+        top:15%;
+        left:50%;
+        transform: translate(-0%,-00%);
+        color:#007799;
+    }
+    
+    .right{
+        background-size:cover ;
+        width:30%;
+        height:30%;
+        font-family:Arial;/*字體*/
+        background-color: rgba(255, 255, 255, 0.479);
+        background-attachment: scroll;
+        background-size: cover;
+        
+        
+        top:0%;
+        
+        transform: translate(200%,0%);
+    }
+    /* .curriculum{
+        background-color:rgba(255, 255, 255, 0.507);
+        background-size:100%,25%;
+        text-align:center;
+        position:center;
+        width:100%;
+        height:25%;
+        transform: translate(0%,0%);
+    } */
+    .down{
+        bottom:0px;
+        font-family:Arial;
+        background-size: 100%,30%;
+        /* height: 500px; */
+        background-color:rgba(174, 205, 247, 0.623);
+        position: center;
+        width:100%;
+        background-attachment: fixed;
+        text-align:center;
+        transform: translate(0%,0%);
+        
+    }
+    
+}
+
+}
